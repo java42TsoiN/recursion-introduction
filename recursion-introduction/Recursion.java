@@ -42,6 +42,7 @@ public class Recursion {
        
     }
 	public static boolean isEven(int b) {
+		//[YG] very complicated. better to use regular b % 2
 		if(b==1) {
 			return false;
 		}
@@ -85,5 +86,13 @@ public class Recursion {
 			return 1;
 		}
 		return x+square(x-1)+(x-1);
+	}
+	public static boolean isSubstring(String str, String substr) {
+		//TODO write function
+		//boolean isSubstring (String str, String substr)
+		//that returns true if a given 'substr' is indeed the substring of a given 'string'.
+		//Challenges: 1. To apply only following methods of the class String:
+		//charAt(int ind); String substring(int ind); int length(); 2. No cycles;
+		return false;
 	}
 }
